@@ -1,0 +1,15 @@
+order_form:
+    path: /
+    methods: [GET]
+    controller: App\Controller\OrderTaxiController::indexAction
+
+airports_list:
+    path: /api/airports
+    methods: [GET]
+    controller: App\Controller\OrderTaxiController::getAirportsAction
+
+send_order:
+    path: /api/send_order
+    methods: [POST]
+    controller: App\Controller\OrderTaxiController::sendFormAction
+

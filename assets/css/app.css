@@ -1,0 +1,12 @@
+.order_form {
+    margin: 30px;
+    width: 100%;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-error {
+    color: red;
+    font-size: 12px;
+}
